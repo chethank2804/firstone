@@ -1,15 +1,7 @@
 on: push
 jobs:
-   first-job:
-    runs-on: windsows-latest
+  first-job:
+    runs-on: windows-latest
     steps:
-       - run: node --version
-       - run: npm --version
-
-
-
-
-
-
-       
-
+      - run: node --version
+      - run: npm --version
